@@ -135,7 +135,4 @@ h4 {
 }
 
 @media (min-width: 1536px) {
-  .project-card-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
 }
