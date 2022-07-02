@@ -1,0 +1,81 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(32, 32, 32, 0.975);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 0rem 4rem 0rem 4rem;
+  z-index: 9999;
+}
+
+.header-links {
+  display: flex;
+  gap: 4rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-link {
+  position: relative;
+  font-size: 1.4rem;
+}
+
+.header-link-text {
+  transition: color 0.2s ease-in-out;
+}
+
+.header-link:hover .header-link-text {
+  color: rgb(84, 186, 89);
+}
+
+.header-link-bar {
+  background: linear-gradient(
+    90deg,
+    rgba(31, 82, 32, 1) 0%,
+    rgba(11, 55, 71, 1) 100%
+  );
+  top: 1.7rem;
+  position: absolute;
+  width: 0rem;
+  height: 0.25rem;
+  transition: width 0.5s ease-in-out;
+}
+
+.header-link:hover .header-link-bar {
+  width: calc(100% + 8px);
+  height: 0.25rem;
+}
+
+.header-main-link {
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.header-main-link-text {
+  transition: color 0.2s ease-in-out;
+}
+
+.header-main-link:hover .header-main-link-text {
+  color: rgb(84, 186, 89);
+}
+
+.header-main-link-bar {
+  background: linear-gradient(
+    90deg,
+    rgba(31, 82, 32, 1) 0%,
+    rgba(11, 55, 71, 1) 100%
+  );
+  top: 2.1rem;
+  position: absolute;
+  width: 0rem;
+  height: 0.25rem;
+  transition: width 0.5s ease-in-out;
+}
+
+.header-main-link:hover .header-main-link-bar {
+  width: calc(100% + 8px);
+  height: 0.25rem;
+}
