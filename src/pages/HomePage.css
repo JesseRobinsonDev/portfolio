@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(23, 23, 23);
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+li,
+a,
+p,
+span,
+div,
+img {
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  color: rgb(223, 223, 223);
+  text-decoration: none;
+}
+
+section {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.125rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin: 0rem 0 0.125rem 0;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin: 0rem 0 0.125rem 0;
+}
+
+.project-card-grid {
+  display: grid;
+  gap: 0.25rem 1rem;
+}
+
+.logo-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.about-column-section {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-section {
+  height: 100vh;
+}
+
+.job-title-text {
+  color: rgb(79, 164, 93);
+}
+
+.blinking-cursor {
+  animation: blinking 1.5s linear infinite;
+}
+
+@keyframes blinking {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+  .project-card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-column-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-column-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .project-card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1536px) {
+  .project-card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
