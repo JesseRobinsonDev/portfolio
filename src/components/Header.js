@@ -2,7 +2,7 @@ import "./Header.css";
 
 export default function Header(props) {
   return (
-    <header className="header">
+    <div className="header">
       <div className="header-main-link">
         <a
           onClick={props.scroll}
@@ -41,6 +41,6 @@ export default function Header(props) {
           <div className="header-link-bar" />
         </div>
       </div>
-    </header>
+    </div>
   );
 }
