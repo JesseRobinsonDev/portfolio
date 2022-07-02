@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
 import ProjectCard from "../components/ProjectCard";
+import Logo from "../components/Logo";
   const location = useLocation();
   const homeSectionRef = useRef();
   const aboutSectionRef = useRef();

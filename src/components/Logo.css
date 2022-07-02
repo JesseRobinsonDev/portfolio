@@ -1,0 +1,31 @@
+.logo {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.logo .logo-tooltip {
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  padding: 5px 0px;
+  border-radius: 0.25rem;
+  transition: opacity 0.4s;
+  background-color: rgb(40, 40, 40);
+  text-align: center;
+  font-size: 1.125rem;
+  position: absolute;
+  width: 100px;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.logo:hover .logo-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
