@@ -83,6 +83,7 @@
 @media (max-width: 640px) {
   .header {
     visibility: hidden;
+    overflow-x: hidden;
   }
 }
 
