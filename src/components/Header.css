@@ -82,13 +82,13 @@
 
 @media (max-width: 640px) {
   .header {
-    visibility: hidden;
+    display: none;
     overflow-x: hidden;
   }
 }
 
 @media (min-width: 768px) {
   .header {
-    visibility: visible;
+    display: block;
   }
 }
