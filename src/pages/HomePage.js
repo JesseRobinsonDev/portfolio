@@ -128,30 +128,27 @@ export default function HomePage() {
           <Logo src="./logos/CSS.svg" alt="CSS" />
           <Logo src="./logos/React.svg" alt="React" />
           <Logo src="./logos/NextJS.svg" alt="NextJS" />
-          {/*
-          <Logo src="./logos/Vue.svg" alt="React" />
-          <Logo src="./logos/Nuxt.svg" alt="React" />
-          */}
+          <Logo src="./logos/Vue.svg" alt="Vue" />
+          <Logo src="./logos/Nuxt.svg" alt="NuxtJS" />
+          <Logo src="./logos/Angular.svg" alt="Angular" />
           <Logo src="./logos/TailwindCSS.svg" alt="TailwindCSS" />
+          <Logo src="./logos/Bootstrap.svg" alt="Bootstrap" />
+          <Logo src="./logos/Sass.svg" alt="Sass" />
         </ul>
         <h4>Backend</h4>
         <ul className="logo-list">
-          {/*
-          <Logo src="./logos/MySQL.svg" alt="React" />
-          <Logo src="./logos/PostgreSQL.svg" alt="React" />
-          */}
+          <Logo src="./logos/PostgreSQL.svg" alt="PostgreSQL" />
           <Logo src="./logos/MongoDB.svg" alt="MongoDB" />
           <Logo src="./logos/NodeJS.svg" alt="NodeJS" />
+          <Logo src="./logos/Redis.svg" alt="Redis" />
         </ul>
         <h4>Languages</h4>
         <ul className="logo-list">
+          <Logo src="./logos/TypeScript.svg" alt="TypeScript" />
           <Logo src="./logos/JavaScript.svg" alt="JavaScript" />
-          {/*
-          <Logo src="./logos/Java.svg" alt="React" />
-          <Logo src="./logos/Golang.svg" alt="React" />
-          <Logo src="./logos/CS.svg" alt="React" />
-          <Logo src="./logos/Python.svg" alt="React" />
-          */}
+          <Logo src="./logos/Golang.svg" alt="Golang" />
+          <Logo src="./logos/Python.svg" alt="Python" />
+          <Logo src="./logos/Rust.svg" alt="Rust" />
         </ul>
         <h4>Tools</h4>
         <ul className="logo-list">
