@@ -98,23 +98,27 @@ export default function HomePage() {
             <ul className="contact-list">
               <li className="contact">
                 <Logo src="./logos/Gmail.svg" alt="Email" />
-                <span>Jesse Robinson</span>
+                <span>jesse.robinson004@gmail.com</span>
               </li>
               <li className="contact">
                 <Logo src="./logos/Github.svg" alt="Github" />
-                <span>Jesse Robinson</span>
+                <a href="https://github.com/JesseRobinsonDev">
+                  JesseRobinsonDev
+                </a>
               </li>
               <li className="contact">
                 <Logo src="./logos/LinkedIn.svg" alt="LinkedIn" />
-                <span>Jesse Robinson</span>
+                <span>REMEMBER TO MAKE A LINKED IN</span>
               </li>
               <li className="contact">
                 <Logo src="./logos/Twitter.svg" alt="Twitter" />
-                <span>Jesse Robinson</span>
+                <span>REMEMBER TO MAKE A TWITTER</span>
               </li>
               <li className="contact">
                 <Logo src="./logos/Instagram.svg" alt="Instagram" />
-                <span>Jesse Robinson</span>
+                <a href="https://www.instagram.com/jesserobinson.dev/">
+                  jesserobinson.dev
+                </a>
               </li>
             </ul>
           </div>
