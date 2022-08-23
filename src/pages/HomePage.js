@@ -167,7 +167,7 @@ export default function HomePage() {
           <ProjectCard
             src="./Test.jpg"
             title="Portfolio"
-            github="https://jesserobinson.dev/"
+            githubs={["https://github.com/JesseRobinsonDev/portfolio"]}
             link="https://jesserobinson.dev/"
             description="This website! Hosted on Vercel!"
             tags={[
@@ -178,38 +178,43 @@ export default function HomePage() {
           />
           <ProjectCard
             src="./Test.jpg"
-            title="Cryptospy - COMING SOON | 90%"
-            github="https://jesserobinson.dev/"
+            title="Cryptospy | 95%"
+            githubs={[
+              "https://github.com/JesseRobinsonDev/cryptospy-frontend",
+              "https://github.com/JesseRobinsonDev/cryptospy-backend",
+            ]}
             link="https://cryptospy.jesserobinson.dev/"
-            description="A cryptocurrency tracker that gets the latest crypto data and news to view. And account system that you can connect your cryptocurrency information."
+            description="A cryptocurrency tracker that gets the latest crypto data. And account system that lets you track various and up to date market data"
             tags={[
               { src: "./logos/HTML.svg", text: "HTML" },
               { src: "./logos/TailwindCSS.svg", text: "TailwindCSS" },
               { src: "./logos/React.svg", text: "React" },
-              { src: "./logos/NextJS.svg", text: "NextJS" },
-              { src: "./logos/Solidity.svg", text: "Solidity" },
               { src: "./logos/Golang.svg", text: "Golang" },
               { src: "./logos/PostgreSQL.svg", text: "PostgreSQL" },
             ]}
           />
           <ProjectCard
             src="./Test.jpg"
-            title="Socially - COMING SOON | 15%"
-            github="https://jesserobinson.dev/"
-            link="https://socially.jesserobinson.dev/"
-            description="A social media hub that allows users to connect all their accounts in one place."
+            title="Articles.dev | 95%"
+            githubs={[
+              "https://github.com/JesseRobinsonDev/articles.dev-frontend",
+              "https://github.com/JesseRobinsonDev/articles.dev-backend",
+            ]}
+            link="https://articlesdev.jesserobinson.dev/"
+            description="A website that allows for making programming articles and tutorials."
             tags={[
               { src: "./logos/HTML.svg", text: "HTML" },
-              { src: "./logos/Bootstrap.svg", text: "Bootstrap" },
-              { src: "./logos/Vue.svg", text: "Vue" },
-              { src: "./logos/Ruby.svg", text: "Ruby" },
-              { src: "./logos/Redis.svg", text: "Redis" },
+              { src: "./logos/Sass.svg", text: "Sass" },
+              { src: "./logos/Angular.svg", text: "Angular" },
+              { src: "./logos/TypeScript.svg", text: "TypeScript" },
+              { src: "./logos/NodeJS.svg", text: "NodeJS" },
+              { src: "./logos/MongoDB.svg", text: "MongoDB" },
             ]}
           />
           <ProjectCard
             src="./Test.jpg"
-            title="PC Sales Tracker - COMING SOON | 0%"
-            github="https://jesserobinson.dev/"
+            title="PC Sales Tracker | 0% | Not Online"
+            githubs={["https://jesserobinson.dev/"]}
             link="https://pctracker.jesserobinson.dev/"
             description="A tracker that scours a variety of websites to track current prices, sales, and specifications of computers and computer components."
             tags={[
@@ -222,23 +227,25 @@ export default function HomePage() {
           />
           <ProjectCard
             src="./Test.jpg"
-            title="Articles.dev - COMING SOON | 0%"
-            github="https://jesserobinson.dev/"
-            link="https://articles.jesserobinson.dev/"
-            description="A website that allows for making programming articles and tutorials."
+            title="Socially | 35% | Not Online"
+            githubs={[
+              "https://github.com/JesseRobinsonDev/socially-frontend",
+              "https://github.com/JesseRobinsonDev/socially-backend",
+            ]}
+            link="https://socially.jesserobinson.dev/"
+            description="A social media hub that allows users to connect all their accounts in one place."
             tags={[
               { src: "./logos/HTML.svg", text: "HTML" },
-              { src: "./logos/CSS.svg", text: "CSS" },
-              { src: "./logos/Angular.svg", text: "Angular" },
-              { src: "./logos/TypeScript.svg", text: "TypeScript" },
-              { src: "./logos/NodeJS.svg", text: "NodeJS" },
-              { src: "./logos/MongoDB.svg", text: "MongoDB" },
+              { src: "./logos/Bootstrap.svg", text: "Bootstrap" },
+              { src: "./logos/Vue.svg", text: "Vue" },
+              { src: "./logos/Rust.svg", text: "Rust" },
+              { src: "./logos/Redis.svg", text: "Redis" },
             ]}
           />
           <ProjectCard
             src="./Test.jpg"
-            title="Coffee UI - COMING SOON | 0%"
-            github="https://jesserobinson.dev/"
+            title="Coffee UI | 0% | Not Online"
+            githubs={["https://jesserobinson.dev/"]}
             link="https://coffeeui.jesserobinson.dev/"
             description="A free UI component library for React, Vue, Angular, and Svelte. Built to be simple to use, modular, and responsive."
             tags={[
