@@ -91,3 +91,9 @@
   visibility: visible;
   opacity: 1;
 }
+
+.github-links {
+  gap: 0.25rem;
+  display: flex;
+  flex-direction: row;
+}
