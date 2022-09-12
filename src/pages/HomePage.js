@@ -135,15 +135,18 @@ export default function HomePage() {
           <Logo src="./logos/Vue.svg" alt="Vue" />
           <Logo src="./logos/Nuxt.svg" alt="NuxtJS" />
           <Logo src="./logos/Angular.svg" alt="Angular" />
+          <Logo src="./logos/Svelte.svg" alt="Svelte" />
           <Logo src="./logos/TailwindCSS.svg" alt="TailwindCSS" />
           <Logo src="./logos/Bootstrap.svg" alt="Bootstrap" />
           <Logo src="./logos/Sass.svg" alt="Sass" />
+          <Logo src="./logos/Bulma.svg" alt="Bulma" />
         </ul>
         <h4>Backend</h4>
         <ul className="logo-list">
-          <Logo src="./logos/PostgreSQL.svg" alt="PostgreSQL" />
-          <Logo src="./logos/MongoDB.svg" alt="MongoDB" />
           <Logo src="./logos/NodeJS.svg" alt="NodeJS" />
+          <Logo src="./logos/PostgreSQL.svg" alt="PostgreSQL" />
+          <Logo src="./logos/MySQL.svg" alt="MySQL" />
+          <Logo src="./logos/MongoDB.svg" alt="MongoDB" />
           <Logo src="./logos/Redis.svg" alt="Redis" />
         </ul>
         <h4>Languages</h4>
@@ -214,13 +217,17 @@ export default function HomePage() {
           />
           <ProjectCard
             src="./Test.jpg"
-            title="PC Sales Tracker | 0% | Not Online"
-            githubs={["https://jesserobinson.dev/"]}
-            link="https://pctracker.jesserobinson.dev/"
-            description="A tracker that scours a variety of websites to track current prices, sales, and specifications of computers and computer components."
+            title="Dev Job Watcher | 90%"
+            githubs={[
+              "https://github.com/JesseRobinsonDev/devjobwatcher-frontend",
+              "https://github.com/JesseRobinsonDev/devjobwatcher-backend",
+            ]}
+            link="https://devjobwatcher.jesserobinson.dev/"
+            description="A tracker that scours a variety of websites to scrape various developer jobs and allow users to search through them with different filters."
             tags={[
               { src: "./logos/HTML.svg", text: "HTML" },
               { src: "./logos/CSS.svg", text: "CSS" },
+              { src: "./logos/Bulma.svg", text: "Bulma" },
               { src: "./logos/Svelte.svg", text: "Svelte" },
               { src: "./logos/Python.svg", text: "Python" },
               { src: "./logos/MySQL.svg", text: "MySQL" },
