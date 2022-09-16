@@ -110,11 +110,16 @@ export default function HomePage() {
                   JesseRobinsonDev
                 </a>
               </li>
-              {/*
               <li className="contact">
                 <Logo src="./logos/LinkedIn.svg" alt="LinkedIn" />
-                <span>REMEMBER TO MAKE A LINKED IN</span>
+                <a
+                  className="contact-text"
+                  href="https://www.linkedin.com/in/jesse-robinson-908974250/"
+                >
+                  Jesse Robinson
+                </a>
               </li>
+              {/*
               <li className="contact">
                 <Logo src="./logos/Twitter.svg" alt="Twitter" />
                 <span>REMEMBER TO MAKE A TWITTER</span>
