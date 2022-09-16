@@ -84,7 +84,6 @@ export default function HomePage() {
         <div className="about-column-section">
           <div>
             <h3>Jesse Robinson</h3>
-            <img height={256} width={256} src="./User.png" alt="User" />
             <p>
               Hello! My name is Jesse Robinson, I am a Web Developer from
               Canada. I strive to learn all that I can about programming and
@@ -98,14 +97,20 @@ export default function HomePage() {
             <ul className="contact-list">
               <li className="contact">
                 <Logo src="./logos/Gmail.svg" alt="Email" />
-                <span>jesse.robinson004@gmail.com</span>
+                <span className="contact-text">
+                  jesse.robinson004@gmail.com
+                </span>
               </li>
               <li className="contact">
                 <Logo src="./logos/Github.svg" alt="Github" />
-                <a href="https://github.com/JesseRobinsonDev">
+                <a
+                  className="contact-text"
+                  href="https://github.com/JesseRobinsonDev"
+                >
                   JesseRobinsonDev
                 </a>
               </li>
+              {/*
               <li className="contact">
                 <Logo src="./logos/LinkedIn.svg" alt="LinkedIn" />
                 <span>REMEMBER TO MAKE A LINKED IN</span>
@@ -120,6 +125,7 @@ export default function HomePage() {
                   jesserobinson.dev
                 </a>
               </li>
+              */}
             </ul>
           </div>
         </div>
@@ -169,7 +175,7 @@ export default function HomePage() {
         <h2>Projects</h2>
         <ul className="project-card-grid">
           <ProjectCard
-            src="./Test.jpg"
+            src="./thumbnails/PortfolioThumbnail.png"
             title="Portfolio"
             githubs={["https://github.com/JesseRobinsonDev/portfolio"]}
             link="https://jesserobinson.dev/"
@@ -181,8 +187,8 @@ export default function HomePage() {
             ]}
           />
           <ProjectCard
-            src="./Test.jpg"
-            title="Cryptospy | 95%"
+            src="./thumbnails/CryptoSpyThumbnail.png"
+            title="Cryptospy"
             githubs={[
               "https://github.com/JesseRobinsonDev/cryptospy-frontend",
               "https://github.com/JesseRobinsonDev/cryptospy-backend",
@@ -198,8 +204,8 @@ export default function HomePage() {
             ]}
           />
           <ProjectCard
-            src="./Test.jpg"
-            title="Articles.dev | 95%"
+            src="./thumbnails/ArticlesDevThumbnail.png"
+            title="Articles.dev"
             githubs={[
               "https://github.com/JesseRobinsonDev/articles.dev-frontend",
               "https://github.com/JesseRobinsonDev/articles.dev-backend",
@@ -216,8 +222,8 @@ export default function HomePage() {
             ]}
           />
           <ProjectCard
-            src="./Test.jpg"
-            title="Dev Job Watcher | 90%"
+            src="./thumbnails/DevJobWatcherThumbnail.png"
+            title="Dev Job Watcher"
             githubs={[
               "https://github.com/JesseRobinsonDev/devjobwatcher-frontend",
               "https://github.com/JesseRobinsonDev/devjobwatcher-backend",
@@ -234,8 +240,8 @@ export default function HomePage() {
             ]}
           />
           <ProjectCard
-            src="./Test.jpg"
-            title="Socially | 35% | Not Online"
+            src="./thumbnails/SociallyThumbnail.png"
+            title="Socially | Not Online"
             githubs={[
               "https://github.com/JesseRobinsonDev/socially-frontend",
               "https://github.com/JesseRobinsonDev/socially-backend",
@@ -250,6 +256,7 @@ export default function HomePage() {
               { src: "./logos/Redis.svg", text: "Redis" },
             ]}
           />
+          {/*
           <ProjectCard
             src="./Test.jpg"
             title="Coffee UI | 0% | Not Online"
@@ -266,6 +273,7 @@ export default function HomePage() {
               { src: "./logos/Firebase.svg", text: "Firebase" },
             ]}
           />
+          */}
         </ul>
       </section>
     </div>
