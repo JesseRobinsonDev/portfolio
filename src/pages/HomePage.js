@@ -119,18 +119,6 @@ export default function HomePage() {
                   Jesse Robinson
                 </a>
               </li>
-              {/*
-              <li className="contact">
-                <Logo src="./logos/Twitter.svg" alt="Twitter" />
-                <span>REMEMBER TO MAKE A TWITTER</span>
-              </li>
-              <li className="contact">
-                <Logo src="./logos/Instagram.svg" alt="Instagram" />
-                <a href="https://www.instagram.com/jesserobinson.dev/">
-                  jesserobinson.dev
-                </a>
-              </li>
-              */}
             </ul>
           </div>
         </div>
@@ -178,6 +166,11 @@ export default function HomePage() {
       </section>
       <section ref={projectsSectionRef}>
         <h2>Projects</h2>
+        <p>
+          Unfortunately, these projects were hosted on Heroku, after they
+          rermoved the Free-Tier, they are no longer being hosted. Please check
+          out the Github repositories to view the projects, thanks.
+        </p>
         <ul className="project-card-grid">
           <ProjectCard
             src="./thumbnails/PortfolioThumbnail.png"
@@ -193,7 +186,7 @@ export default function HomePage() {
           />
           <ProjectCard
             src="./thumbnails/CryptoSpyThumbnail.png"
-            title="Cryptospy"
+            title="Cryptospy | Not Online"
             githubs={[
               "https://github.com/JesseRobinsonDev/cryptospy-frontend",
               "https://github.com/JesseRobinsonDev/cryptospy-backend",
@@ -210,7 +203,7 @@ export default function HomePage() {
           />
           <ProjectCard
             src="./thumbnails/ArticlesDevThumbnail.png"
-            title="Articles.dev"
+            title="Articles.dev | Not Online"
             githubs={[
               "https://github.com/JesseRobinsonDev/articles.dev-frontend",
               "https://github.com/JesseRobinsonDev/articles.dev-backend",
@@ -228,7 +221,7 @@ export default function HomePage() {
           />
           <ProjectCard
             src="./thumbnails/DevJobWatcherThumbnail.png"
-            title="Dev Job Watcher"
+            title="Dev Job Watcher | Not Online"
             githubs={[
               "https://github.com/JesseRobinsonDev/devjobwatcher-frontend",
               "https://github.com/JesseRobinsonDev/devjobwatcher-backend",
